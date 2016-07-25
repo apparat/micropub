@@ -1,0 +1,8 @@
+site_name: apparat/server
+site_description: Apparat micropub server
+site_author: Joschi Kuphal
+repo_url: https://github.com/apparat/micropub/
+docs_dir: doc
+pages:
+- Home: 'index.md'
+- To-Do: 'todo.md'
