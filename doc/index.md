@@ -2,7 +2,8 @@
 
 Purpose of this module:
 
-1. ???
+1. Add a [Micropub](http://micropub.net) compatible API to [apparat/server](https://github.com/apparat/server)
+    * Create, edit and delete objects
 
 # Environment variables
 

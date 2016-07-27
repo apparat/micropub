@@ -14,7 +14,8 @@
     "apparat/kernel": "@dev",
     "apparat/object": "@dev",
     "apparat/resource": "0.1.*",
-    "apparat/server": "0.1.*"
+    "apparat/server": "0.1.*",
+    "dominicsayers/isemail": "@dev"
   },
   "require-dev": {
     "phpunit/phpunit": "^5.3",
@@ -47,6 +48,11 @@
       "type": "vcs",
       "url": "git@github.com:apparat/server.git",
       "reference": "master"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:dominicsayers/isemail.git",
+      "reference": "master"
     }
   ],
   "autoload": {
@@ -54,8 +60,8 @@
       "Apparat\\": "src/"
     },
     "files": [
-      "src/Server/Module.php",
-      "src/Server/Autorun.php"
+      "src/Micropub/Module.php",
+      "src/Micropub/Autorun.php"
     ]
   }
 }

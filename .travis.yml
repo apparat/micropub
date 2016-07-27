@@ -18,7 +18,7 @@ before_script:
   - echo "APP_LOG=null" > .env
   - echo "APPARAT_ENCRYPTION_KEY=\"14ed57fa098ebbb0f7b26c262fa45b45\"" >> .env
   - echo "APPARAT_BASE_URL=\"http://apparat/blog\"" >> .env
-  - echo "APPARAT_DOCUMENT_ROOT=\"`pwd`/src/Object/Tests/Fixture\"" >> .env
+  - echo "APPARAT_DOCUMENT_ROOT=\"`pwd`/src/Micropub/Tests/Fixture\"" >> .env
   - echo "OBJECT_RESOURCE_EXTENSION=md" >> .env
   - echo "OBJECT_DATE_PRECISION=3" >> .env
   - echo "OBJECT_DEFAULT_PRIVACY=public" >> .env
@@ -39,4 +39,4 @@ after_script:
 
 addons:
     code_climate:
-        repo_token: e3abc4e307e7a0d2822821794edf371149918080c4dd779ea6d7873a4c52ce33
+        repo_token: 1424408276463c8b27851c728f737262e8ad61599c73b72cca62052847e11068
