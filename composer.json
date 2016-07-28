@@ -1,37 +1,32 @@
 {
   "name": "apparat/micropub",
   "description": "Apparat micropub server",
+  "homepage": "https://apparat.tools",
+  "minimum-stability": "RC",
   "license": "MIT",
   "authors": [
     {
       "name": "Joschi Kuphal",
-      "email": "joschi@kuphal.net"
+      "email": "joschi@kuphal.net",
+      "homepage": "https://jkphl.is",
+      "role": "Developer"
     }
   ],
-  "minimum-stability": "RC",
   "require": {
     "php": ">=5.6.0",
-    "apparat/kernel": "@dev",
-    "apparat/object": "@dev",
-    "apparat/resource": "0.1.*",
-    "apparat/server": "0.1.*",
-    "dominicsayers/isemail": "@dev"
+    "apparat/server": "@dev",
+    "dominicsayers/isemail": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "^5.3",
-    "apparat/dev": "dev-master",
     "satooshi/php-coveralls": "^1.0",
-    "codeclimate/php-test-reporter": "dev-master"
+    "codeclimate/php-test-reporter": "dev-master",
+    "apparat/dev": "@dev"
   },
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@github.com:apparat/object.git",
-      "reference": "master"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:apparat/resource.git",
+      "url": "git@github.com:apparat/dev.git",
       "reference": "master"
     },
     {
@@ -41,7 +36,12 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:apparat/dev.git",
+      "url": "git@github.com:apparat/resource.git",
+      "reference": "master"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:apparat/object.git",
       "reference": "master"
     },
     {
